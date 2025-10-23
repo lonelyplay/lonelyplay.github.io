@@ -14,7 +14,7 @@ function createTime() {
     minutes = String(minutes).padStart(2, '0');
     seconds = String(seconds).padStart(2, '0');
 
-    document.getElementById("timeDate").innerHTML = "本站已在图书馆尘封 " + days + " 天 "; // 在这里修改你的建站时间文本
+    document.getElementById("timeDate").innerHTML = "本站已在東雲研究所存档 " + days + " 天 "; // 在这里修改你的建站时间文本
     document.getElementById("times").innerHTML = hours + " 小时 " + minutes + " 分 " + seconds + " 秒";
 }
 
